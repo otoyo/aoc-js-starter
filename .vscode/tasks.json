@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install packages",
+      "type": "shell",
+      "command": "npm install",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Test",
+      "type": "shell",
+      "command": "npm test ${fileDirname}",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Run",
+      "type": "shell",
+      "command": "node ${fileDirname}/script.js",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    }
+  ]
+}
