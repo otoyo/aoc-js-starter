@@ -11,8 +11,8 @@
 
 ## リポジトリのクローン
 
-VSCodeを開いて「Clone Git Repository...」「Clone from GitHub」の順に選び `otoyo/aoc-js-starter` と入力してリポジトリを選択します。  
-適当なフォルダを選んでプロジェクトを開きます。
+VSCodeを開きます。Gitがすでにインストールされている場合は「Clone Git Repository...」「Clone from GitHub」の順に選び `otoyo/aoc-js-starter` を入力してリポジトリを選択し、適当なフォルダを選んでプロジェクトを開きます。  
+Gitがインストールされていない場合は、先にVSCode左からGitのアイコン（枝分かれのアイコン）を選びGitをインストールします。
 
 ## パッケージのインストール
 
