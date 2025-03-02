@@ -2,6 +2,12 @@
 
 [Advent of Code](https://adventofcode.com/)をNode.jsで始めるためのスターターキット
 
+## 動画解説
+
+YouTubeに使い方の詳しい解説があるのでぜひご覧ください。
+
+- [ゆるっとはじめるプログラミングクイズ #1 / 準備とDay1 #AoC2022](https://youtu.be/FYTbBDVZNjc)
+
 ## 必要ツール
 
 このプロジェクトを使用するには以下のツールが必要です。
