@@ -17,7 +17,7 @@
     {
       "label": "Test",
       "type": "shell",
-      "command": "npm test ${fileDirname}",
+      "command": "npm test ${relativeFileDirname}",
       "problemMatcher": [],
       "group": {
         "kind": "build",
@@ -30,14 +30,14 @@
     {
       "label": "Run",
       "type": "shell",
-      "command": "node ${fileDirname}/script.js",
+      "command": "node script.js",
       "problemMatcher": [],
       "group": {
         "kind": "build",
         "isDefault": false
       },
       "options": {
-        "cwd": "${workspaceFolder}"
+        "cwd": "${fileDirname}"
       }
     }
   ]
