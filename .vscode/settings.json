@@ -4,11 +4,16 @@
   "files.exclude": {
     "node_modules": true,
   },
+  "files.associations": {
+    "*.js": "javascript"
+  },
   "files.eol": "\n",
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
   "terminal.integrated.env.windows": {
     "PSExecutionPolicyPreference": "RemoteSigned"
+  },
+  "[javascript]": {
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
   }
 }
