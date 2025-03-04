@@ -5,7 +5,8 @@
     "node_modules": true,
   },
   "files.associations": {
-    "*.js": "javascript"
+    "*.js": "javascript",
+    "*.txt": "plaintext"
   },
   "files.eol": "\n",
   "terminal.integrated.env.windows": {
@@ -15,5 +16,10 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true
+  },
+  "[plaintext]": {
+    "files.insertFinalNewline": false,
+    "files.trimFinalNewlines": false,
+    "files.trimTrailingWhitespace": false
   }
 }
